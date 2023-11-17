@@ -1,0 +1,27 @@
+.content {
+    /* This is the parent of the activity 1 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0px;
+    
+    
+}
+._color
+{
+background-color:gainsboro;
+width:50%;
+height: 290px;
+}
+
+._text
+{
+    height: 200px;
+}
+
+._image{  
+    width:200px;
+    height: 200px;
+    background-image:src="https://byui-wdd.github.io/wdd130/ice/w06_cherries.png";
+
+}
+
